@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.env
+.venv/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (keep raw files out of git if large)
+data/raw/*
+data/processed/*
+!data/raw/README.md
+!data/processed/README.md
+
+# Outputs
+*.log
